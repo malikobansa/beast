@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css?family=Ojuju');
+
+* {
+   box-sizing: border-box;
+}
+
+body {
+  font-family: 'Ojuju', sans-serif;
+  display: flex;
+  margin: 0;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  font-size: 30px;
+  color: white;
+}
+
+.bg{
+  background-image: url("./img/falz.jpeg");
+  background-repeat: no-repeat;
+  background-position:center;
+  background-size: cover;
+  position: absolute;
+  top: -30px;
+  left: -30px;
+  width: calc(100vw + 60px);
+  height: calc(100vh + 60px);
+  z-index: -1;
+  filter: blur(0px);
+}
+
+.loading-text{
+  font-size: 50px;
+  color: #fff;
+}
+
+#counter{
+    font-family: 120px;
+    color: #fff;
+}
+
+.icon a i{
+    color: white;
+}
+
+.icon a i:hover{
+    color: gray;
+    transition: .4s all ease-in-out;
+}
+
+@media only screen and (max-width:378px) {
+   .text{
+    width: 290px;
+    height: 500px
+   } 
+}
